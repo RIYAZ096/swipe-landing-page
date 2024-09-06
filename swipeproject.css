@@ -159,3 +159,14 @@ a:hover {
   opacity: 0.75;
   cursor: pointer;
 }
+.with-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.with-icon:hover > img {
+  transition: transform 0.25 ease;
+}
+.with-icon:hover > img {
+  transform: translateX(6px);
+}
